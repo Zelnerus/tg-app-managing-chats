@@ -8,7 +8,7 @@ import { TelegramWebApp } from 'react-telegram-webapp';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TelegramWebApp>
+    <TelegramWebApp validateHash={() => true}>
       <App />
     </TelegramWebApp>
   </React.StrictMode>

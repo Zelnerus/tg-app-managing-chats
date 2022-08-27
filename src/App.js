@@ -8,7 +8,7 @@ function App() {
   const webApp = useTelegramWebApp();
 
   useEffect(() => {
-    webApp.ready()
+    webApp?.ready()
   }, [])
 
   return (
