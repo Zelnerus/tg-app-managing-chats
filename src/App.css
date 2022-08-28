@@ -2,7 +2,7 @@
   background-color: var(--tg-theme-bg-color);
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  padding: 12px;
+  align-items: flex-start;
+  padding: 0px 16px;
   min-height: 100vh;
 }

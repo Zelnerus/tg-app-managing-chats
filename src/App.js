@@ -19,7 +19,7 @@ function App() {
       {/*  <Button>test it</Button>*/}
       {/*</header>*/}
         <Routes>
-            <Route path="/" element={<Dialogs />} />
+            <Route path="*" element={<Dialogs />} />
         </Routes>
     </div>
   );

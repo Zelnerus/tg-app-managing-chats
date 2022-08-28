@@ -4,16 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {TelegramWebApp} from 'react-telegram-webapp';
-import {HashRouter} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <HashRouter>
+        <BrowserRouter>
             <TelegramWebApp validateHash={() => true}>
                 <App/>
             </TelegramWebApp>
-        </HashRouter>
+        </BrowserRouter>
     </React.StrictMode>
 );
 
