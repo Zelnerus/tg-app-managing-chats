@@ -7,20 +7,22 @@ import {Avatar} from "../../components/Avatar";
 export const Dialogs = () => {
     const dialogs = ['A', 'B'];
     return (
-        <div className={styles.list}>
-            {dialogs.map((e, i) => (
-                <React.Fragment
-                    key={i}
-                >
-                    <DialogCell
-                        before={
-                            <Avatar style={{backgroundColor: '#7590E3'}}>{e}</Avatar>
-                        }
+        <div className={styles.dialogs}>
+            <div className={styles.list}>
+                {dialogs.map((e, i) => (
+                    <React.Fragment
+                        key={i}
                     >
-                        test test
-                    </DialogCell>
-                </React.Fragment>
-            ))}
+                        <DialogCell
+                            before={
+                                <Avatar style={{backgroundColor: '#7590E3'}}>{e}</Avatar>
+                            }
+                        >
+                            test test
+                        </DialogCell>
+                    </React.Fragment>
+                ))}
+            </div>
         </div>
     );
 }

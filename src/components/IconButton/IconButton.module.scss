@@ -1,0 +1,12 @@
+.IconButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 50%;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+

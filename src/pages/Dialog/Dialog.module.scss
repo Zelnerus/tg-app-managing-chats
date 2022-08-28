@@ -1,8 +1,14 @@
+@import "src/scss/index";
+
 .dialog {
+  @include page;
   padding: 12px;
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  
   font-size: 28px;
   font-weight: 900;
 }
