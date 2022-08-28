@@ -3,6 +3,8 @@ import './App.css';
 import { Button } from './components/Button/Button';
 import { useTelegramWebApp } from 'react-telegram-webapp';
 import { useEffect } from 'react';
+import {Route, Routes} from "react-router-dom";
+import {Dialogs} from "./pages/Dialog";
 
 function App() {
   const webApp = useTelegramWebApp();
@@ -13,9 +15,12 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <Button>test it</Button>
-      </header>
+      {/*<header className="App-header">*/}
+      {/*  <Button>test it</Button>*/}
+      {/*</header>*/}
+        <Routes>
+            <Route path="/" element={<Dialogs />} />
+        </Routes>
     </div>
   );
 }

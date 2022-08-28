@@ -1,7 +1,8 @@
 .App {
   background-color: var(--tg-theme-bg-color);
-  min-height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding: 12px;
+  min-width: 100vh;
 }
