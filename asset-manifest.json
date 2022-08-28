@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tg-app-managing-chats/static/css/main.70c09fdf.css",
-    "main.js": "/tg-app-managing-chats/static/js/main.37b0fbc6.js",
+    "main.css": "/tg-app-managing-chats/static/css/main.38098a55.css",
+    "main.js": "/tg-app-managing-chats/static/js/main.58fb8792.js",
     "static/js/787.3906daec.chunk.js": "/tg-app-managing-chats/static/js/787.3906daec.chunk.js",
     "static/media/logo.svg": "/tg-app-managing-chats/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/tg-app-managing-chats/index.html",
-    "main.70c09fdf.css.map": "/tg-app-managing-chats/static/css/main.70c09fdf.css.map",
-    "main.37b0fbc6.js.map": "/tg-app-managing-chats/static/js/main.37b0fbc6.js.map",
+    "main.38098a55.css.map": "/tg-app-managing-chats/static/css/main.38098a55.css.map",
+    "main.58fb8792.js.map": "/tg-app-managing-chats/static/js/main.58fb8792.js.map",
     "787.3906daec.chunk.js.map": "/tg-app-managing-chats/static/js/787.3906daec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70c09fdf.css",
-    "static/js/main.37b0fbc6.js"
+    "static/css/main.38098a55.css",
+    "static/js/main.58fb8792.js"
   ]
 }
