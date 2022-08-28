@@ -5,6 +5,12 @@
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+  padding: 4px;
+}
+
+.container:hover {
+  opacity: 0.6;
+  border-radius: 16px;
 }
 
 .child {

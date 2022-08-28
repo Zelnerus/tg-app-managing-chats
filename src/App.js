@@ -4,7 +4,8 @@ import { Button } from './components/Button/Button';
 import { useTelegramWebApp } from 'react-telegram-webapp';
 import { useEffect } from 'react';
 import {Route, Routes} from "react-router-dom";
-import {Dialogs} from "./pages/Dialog";
+import {Dialogs} from "./pages/Dialogs";
+import {Dialog} from "./pages/Dialog";
 
 function App() {
   const webApp = useTelegramWebApp();
@@ -19,6 +20,7 @@ function App() {
       {/*  <Button>test it</Button>*/}
       {/*</header>*/}
         <Routes>
+            <Route path="/dialog/:id" element={<Dialog />} />
             <Route path="*" element={<Dialogs />} />
         </Routes>
     </div>

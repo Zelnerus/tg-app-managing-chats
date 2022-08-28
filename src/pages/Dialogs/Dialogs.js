@@ -5,7 +5,7 @@ import styles from './Dialogs.module.scss';
 import {Avatar} from "../../components/Avatar";
 
 export const Dialogs = () => {
-    const dialogs = ['a', 'b'];
+    const dialogs = ['A', 'B'];
     return (
         <div className={styles.list}>
             {dialogs.map((e, i) => (
@@ -14,7 +14,7 @@ export const Dialogs = () => {
                 >
                     <DialogCell
                         before={
-                            <Avatar style={{backgroundColor: '#7590E3'}}>O</Avatar>
+                            <Avatar style={{backgroundColor: '#7590E3'}}>{e}</Avatar>
                         }
                     >
                         test test

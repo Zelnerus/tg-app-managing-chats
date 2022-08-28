@@ -3,6 +3,5 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px 16px;
   min-height: 100vh;
 }

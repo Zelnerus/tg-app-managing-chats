@@ -1,7 +1,10 @@
 .Avatar {
   border-radius: 50%;
-  padding: 12px 17px;
+  padding: 12px 15px;
   color: white;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
